@@ -1,0 +1,6 @@
+admin_username          = "psqladmin"
+admin_password = "Sankar#7851"
+location = "East US"
+rgname = "prodmodrg"
+location1 = "West US"
+rgname1 = "prodmodrg1"
