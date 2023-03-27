@@ -4,10 +4,6 @@ resource "azurerm_resource_group" "example" {
   location = var.location
 }
 
-resource "azurerm_resource_group" "example1" {
-  name     = var.rgname1
-  location = var.location1
-}
 
 
 terraform {
