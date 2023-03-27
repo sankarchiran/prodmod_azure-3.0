@@ -1,5 +1,5 @@
 admin_username          = "psqladmin"
-admin_password = "Sankar#7851"
+admin_password = "Chiran#7851"
 location = "East US"
 rgname = "prodmodrg"
 location1 = "West US"
