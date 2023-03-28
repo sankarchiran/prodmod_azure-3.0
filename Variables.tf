@@ -1,5 +1,5 @@
-//variable "admin_username" {}
-//variable "admin_password" {}
+variable "admin_username" {}
+variable "admin_password" {}
 
 variable "location" {
 
