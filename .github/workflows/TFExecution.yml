@@ -32,6 +32,12 @@ jobs:
     - name: Terraform Plan      
       run: terraform plan -out=tfplan
       id: tfplan
+      
+    - name: Upload Terraform Plan
+      uses: actions/upload-artifact@v2
+      with:
+        name: terraform-plan
+        path: tfplan
 
     - name: Terraform Apply
       if: github.ref == 'refs/heads/main' && github.event_name == 'push'
