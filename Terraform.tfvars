@@ -3,4 +3,4 @@
 location = "East US"
 rgname = "prodmodrg"
 location1 = "West US"
-rgname1 = "prodmodrg1"
+rgname1 = "prodmodrgtest"

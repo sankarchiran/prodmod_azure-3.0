@@ -14,7 +14,7 @@ variable "rgname" {
 variable "rgname1" {
 
     type = string
-    default = "West US"
+    default = "prodmodrgtest"
 }      
 variable "location1" {
 
