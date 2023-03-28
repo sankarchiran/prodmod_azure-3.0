@@ -1,6 +1,23 @@
-variable "admin_username" {}
-variable "admin_password" {}
-variable "location" {}
-variable "rgname" {}
-variable "rgname1" {}      
-variable "location1" {}
+//variable "admin_username" {}
+//variable "admin_password" {}
+
+variable "location" {
+
+    type = string
+    default = "East US"
+}
+variable "rgname" {
+
+    type = string
+    default = "prodmodrg"
+}
+variable "rgname1" {
+
+    type = string
+    default = "West US"
+}      
+variable "location1" {
+
+    type = string
+    default = "West US"
+}

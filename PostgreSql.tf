@@ -5,8 +5,8 @@ resource "azurerm_resource_group" "example" {
 }
 
 resource "azurerm_resource_group" "example1" {
-  name     = "prodmodrggtest"
-  location = var.location
+  name     = var.rgname1
+  location = var.location1
 }
 
 terraform {
