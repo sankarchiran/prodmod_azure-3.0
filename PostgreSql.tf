@@ -18,7 +18,7 @@ terraform {
   }
 }
 
-/*
+
 resource "azurerm_postgresql_server" "example" {
   name                = "postgresql-prodmod"
   location            = azurerm_resource_group.example.location
@@ -44,4 +44,4 @@ resource "azurerm_postgresql_database" "example" {
   charset             = "UTF8"
   collation           = "English_United States.1252"
 }
-*/
+
