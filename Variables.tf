@@ -1,5 +1,11 @@
-variable "admin_username" {}
-variable "admin_password" {}
+variable "admin_username" {
+    type = string
+    default = "psqladmin"
+}
+variable "admin_password" {
+    type = string
+    default = "ProdMod#7851"
+}
 
 variable "location" {
 
