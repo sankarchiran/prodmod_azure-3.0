@@ -4,6 +4,10 @@ resource "azurerm_resource_group" "example" {
   location = var.location
 }
 
+resource "azurerm_resource_group" "example" {
+  name     = "prodmodrgg"
+  location = var.location
+}
 
 terraform {
   backend "azurerm" {
