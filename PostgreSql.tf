@@ -4,10 +4,11 @@ resource "azurerm_resource_group" "example" {
   location = var.location
 }
 
+/*
 resource "azurerm_resource_group" "example1" {
   name     = var.rgname1
   location = var.location1
-}
+}*/
 
 terraform {
   backend "azurerm" {
@@ -18,7 +19,7 @@ terraform {
   }
 }
 
-
+/*
 resource "azurerm_postgresql_server" "example" {
   name                = "postgresql-prodmod"
   location            = azurerm_resource_group.example.location
@@ -44,4 +45,4 @@ resource "azurerm_postgresql_database" "example" {
   charset             = "UTF8"
   collation           = "English_United States.1252"
 }
-
+*/
